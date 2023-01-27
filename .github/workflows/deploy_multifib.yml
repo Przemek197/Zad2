@@ -66,5 +66,5 @@ jobs:
         application_name: FibCalculator
         environment_name: Fibcalculator-env
         version_label: Zad2
-        region: eu-north-1
+        region: us-east-1
         deployment_package: deploy.zip
