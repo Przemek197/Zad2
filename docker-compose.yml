@@ -24,7 +24,7 @@ services:
       - REDIS_HOST=$REDIS_HOST
       - REDIS_PORT=$REDIS_PORT
   nginx:
-    image: "przemek197/alpine:fib-nginx"
+    image: "przemek197/alpine:fib-router"
     mem_limit: 128m
     hostname: nginx
     ports:
